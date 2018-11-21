@@ -1,20 +1,4 @@
 
-/*
-    Name: Max Staples
-    Assignment: QuickHull
-    Course: CS371
-    Semester: Fall 2018
-    Date: 11/11/2018
-    Sources Consulted: None
-    Known Bugs: None
-    Program Instructions: The main method in this program illustrates
-    the steps that should be taken in order to perform the necessary
-    requirements of the program.
-        1. Instantiate QuickHull instance
-        2. Read the file
-        3. Call convexHull to get the Hull and print it to result.txt
- */
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -209,12 +193,9 @@ public class QuickHull {
         }
     }
 
-class QuickHullDemo{
-    public static void main(String[] args) throws FileNotFoundException {
+
+public static void main(String[] args) throws FileNotFoundException {
         QuickHull quickHull = new QuickHull();
         quickHull.readFile("data.txt");
         quickHull.convexHull();
-
-
-    }
 }
