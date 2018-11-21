@@ -1,3 +1,3 @@
 # QuickHull
-This is an implementation of QuickHull. A .txt file is required for the main method in QuickHull
+This is an implementation of QuickHull. A .txt file is required for the main method in QuickHull \n
 An example of the .txt format can be found in data.txt
