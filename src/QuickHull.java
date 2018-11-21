@@ -6,6 +6,11 @@ import java.util.*;
 
 
 public class QuickHull {
+    public static void main(String[] args) throws FileNotFoundException {
+        QuickHull quickHull = new QuickHull();
+        quickHull.readFile("data.txt");
+        quickHull.convexHull();
+}
 
     private ArrayList<Point> allPoints;
     private ArrayList<Point> convexHull;
@@ -192,10 +197,3 @@ public class QuickHull {
                 return 1;
         }
     }
-
-
-public static void main(String[] args) throws FileNotFoundException {
-        QuickHull quickHull = new QuickHull();
-        quickHull.readFile("data.txt");
-        quickHull.convexHull();
-}
